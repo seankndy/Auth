@@ -1,0 +1,22 @@
+{
+    "name": "seankndy/auth",
+    "description": "Simple PHP authentication framework",
+    "authors": [
+        {
+            "name": "Sean Kennedy",
+            "email": "sean@kndy.net"
+        }
+    ],
+    "keywords": [
+        "ldap",
+        "authentication"
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SeanKndy\\Auth\\": "src/"
+        }
+    }
+}
